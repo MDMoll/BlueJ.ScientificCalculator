@@ -26,8 +26,6 @@ public class Input {
         double unsignedSecondNum = Double.parseDouble(stringNum2);
         double result = 0.0;
         if (stringOp.equals("/") && unsignedSecondNum == 0){System.out.println("Error! Please don't divide by zero.");
-            //} else if (m.find(1) || m.find(7){
-            //    switch(Trig1)
         }
         // Evaluates as radians if present
         if(stringTrig1 != null){
